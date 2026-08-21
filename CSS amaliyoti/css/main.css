@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.main-nav__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    margin: 20px 0 0 20px;
+}
+
+.nav-logo h1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #20292f;
+}
+
+.navigation{
+    padding: 30px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item{
+    margin-right: 20px; 
+}
+
+.nav-item a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #20292f;
+}
+
+.nav-item:hover a{
+    color: #71818c;
+}
+
+.nav-item-bold a{
+    font-weight: bold;
+}
+
+/* Hosting service section */
+
+.text-white{
+    color: white;
+}
+
+
+.hosting-service{
+    background-color: #0752fe;
+}
+
+.hosting-service__container{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.hosting-service__text
+
+.hosting-service__title{
+    font-size: 52px;
+    font-weight: 600;
+    width: 60%;
+}
+
+.hosting-service__info{
+    font-size: 16px;
+    width: 60%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.hosting-service__button{
+    padding: 14px 38px;
+    background-color: #263547;
+    border-radius: 5px;
+    border: 0;
+}
+
+.hosting-service__img img{
+    width: 100%;
+}
