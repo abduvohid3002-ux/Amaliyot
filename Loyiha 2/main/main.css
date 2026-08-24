@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* Umumiy stillar */
 
 .navigation-item a:hover{
@@ -11,18 +12,20 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 20px auto 20px;
 }
 
 .header-div{
     display: flex;
     justify-content: space-between;
+    font-family: 'poppins';
 }
 
 .navigation-title h1 a{
     text-decoration: none;
     color: #20292f;
+    font-weight: 600;
 }
 
 .navigation-items{
@@ -45,7 +48,10 @@
 /* Premium hosting section */
 
 .hosting-section{
-    background-color: #0752fe;
+    background: #0752fe url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-01.png) no-repeat bottom;
+    background-image: 100%;
+    font-family: rubik;
+    padding-bottom: 40px;
 }
 
 .main-hosting{
@@ -53,19 +59,28 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 50px;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .hosting-title{
     font-size: 24px;
     color: white;
     margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.hosting-title h1{
+    font-weight: 500;
 }
 
 .hosting-info{
     color: white;
     max-width: 400px;
     margin-bottom: 20px;
+}
+
+.hosting-info p{
+    line-height: 30px;
 }
 
 .hosting-btn button{
@@ -85,3 +100,32 @@
 .hosting-img img{
     width: 100%;
 }
+
+/* Cost section */
+
+.cost-section{
+    margin: 0 50px 0;
+}
+
+.cost-items{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.cost-paragraph{
+    font-size: 30px;
+    font-family: Rubik;
+    font-weight: 600;
+}
+
+.cost-dot{
+    color: #0752fe;
+}
+
+.cost-number{
+    font-size: 15px;
+    opacity: 70%;
+    font-weight: 400;
+}
+
